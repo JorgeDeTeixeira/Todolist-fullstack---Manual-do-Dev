@@ -9,3 +9,18 @@ content-type: application/json
 {
     "title":"Ir para o treino"
 }
+
+###
+
+DELETE  http://localhost:3333/tasks/ HTTP/1.1
+content-type: application/json
+
+###
+
+PUT http://localhost:3333/tasks/5 HTTP/1.1
+content-type: application/json
+
+{
+    "title":"Ir para o treino no gina",
+    "status":"success"
+}
